@@ -38,13 +38,16 @@ Abra o endereço indicado pelo Vite. Se a aplicação usar uma API, configure a 
 ## Estrutura
 
 ```text
-App.tsx          fluxo público de inscrição
-AdminApp.tsx     fluxo administrativo
-index.tsx        entrada da aplicação pública
-admin.tsx        entrada da área administrativa
-constants.ts     constantes do domínio
-types.ts         tipos compartilhados
-vite.config.ts   configuração do Vite
+App.tsx            fluxo público de inscrição
+AdminApp.tsx       fluxo administrativo
+pages/FormPage.tsx formulário e persistência local de demonstração
+pages/AdminPage.tsx filtros e tabela de inscrições locais
+components/Navbar.tsx navegação entre as duas entradas
+index.tsx          entrada da aplicação pública
+admin.tsx          entrada da área administrativa
+constants.ts       constantes do domínio
+types.ts           tipos compartilhados
+vite.config.ts     configuração do Vite
 ```
 
 ## Segurança e configuração
